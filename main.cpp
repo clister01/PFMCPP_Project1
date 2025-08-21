@@ -52,97 +52,98 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: mouth
+//  action 1: the mouth opens
+mouth.open();
+//  action 2: the mouth closes
+mouth.close();
+//  action 3: the mouth chews
+mouth.chew();
 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: car
+//  action 1: the car accelerates 
+car.accelerate();
+//  action 2: the car slows down
+car.slowDown();    
+//  action 3: the car turns on the headlights
+car.headlightsOn();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: cat
+//  action 1: the cat meows
+cat.meow();
+//  action 2: the car purrs
+cat.purr();
+//  action 3: the cat hisses
+cat.hiss();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: air conditioner
+//  action 1: the air conditioner cools the room
+airconditioner.coolRoom();
+//  action 2: the air conditioner heats the room
+airconditioner.heatRoom();
+//  action 3: the air conditioner blows air
+airconditioner.blowAir();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: washing machine
+//  action 1: the washing machine washes clothes
+washingmachine.washClothes();
+//  action 2: the washing machine drains the water
+washingmachine.drainWater();
+//  action 3: the washing machine spins the clothes
+washingmachine.spinClothes();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: dishwasher
+//  action 1: the dishwasher cleans the dishes
+dishwasher.cleanDishes();
+//  action 2: the dishwasher dries the dishes
+dishwasher.dryDishes();
+//  action 3: the dishwasher beeps when done
+dishwasher.beepWhenDone();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: coffee maker
+//  action 1: the coffee maker brews coffee
+coffeemaker.brewCoffee();
+//  action 2: the coffee machine self cleans
+coffeemaker.selfClean();
+//  action 3: the coffe machine preserves my sanity
+coffeemaker.preserveMySanity();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: daughter
+//  action 1: my daughter laughs
+daughter.laugh();
+//  action 2: my daughter smiles
+daughter.smile();
+//  action 3: my daughter gets whatever she wants
+daughter.getWhateverSheWants();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: lemon tree
+//  action 1: the lemon tree grows
+lemontree.grow();
+//  action 2: the lemon tree produces lemons
+lemontree.produceLemons();
+//  action 3: the lemon tree drops ripe lemons
+lemontree.dropRipeLemons();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
-
+//  Noun: mailman
+//  action 1: the mailman delivers mail
+mailman.deliverMail();
+//  action 2: the mailman refuses to take mail
+mailman.refuseToTakeMail();
+//  action 3: the mailman gets annoyed
+mailman.getAnnoyed();
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +151,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
