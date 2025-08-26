@@ -79,19 +79,19 @@ cat.hiss();
 //  4)
 //  Noun: air conditioner
 //  action 1: the air conditioner cools the room
-airconditioner.coolRoom();
+airConditioner.coolRoom();
 //  action 2: the air conditioner heats the room
-airconditioner.heatRoom();
+airConditioner.heatRoom();
 //  action 3: the air conditioner blows air
-airconditioner.blowAir();
+airConditioner.blowAir();
 //  5)
 //  Noun: washing machine
 //  action 1: the washing machine washes clothes
-washingmachine.washClothes();
+washingMachine.washClothes();
 //  action 2: the washing machine drains the water
-washingmachine.drainWater();
+washingMachine.drainWater();
 //  action 3: the washing machine spins the clothes
-washingmachine.spinClothes();
+washingMachine.spinClothes();
 //  6)
 //  Noun: dishwasher
 //  action 1: the dishwasher cleans the dishes
@@ -103,27 +103,27 @@ dishwasher.beepWhenDone();
 //  7)
 //  Noun: coffee maker
 //  action 1: the coffee maker brews coffee
-coffeemaker.brewCoffee();
+coffeeMaker.brewCoffee();
 //  action 2: the coffee machine self cleans
-coffeemaker.selfClean();
+coffeeMaker.selfClean();
 //  action 3: the coffe machine preserves my sanity
-coffeemaker.preserveMySanity();
+coffeeMaker.preserveMySanity();
 //  8)
-//  Noun: daughter
-//  action 1: my daughter laughs
-daughter.laugh();
-//  action 2: my daughter smiles
-daughter.smile();
-//  action 3: my daughter gets whatever she wants
-daughter.getWhateverSheWants();
+//  Noun: middle child
+//  action 1: my middle child plots quietly
+middleChild.plotsQuietly();
+//  action 2: my middle child observes carnage
+middleChild.observesCarnage();
+//  action 3: my middle child feigns innocence
+middleChild.feignsInnocence();
 //  9)
 //  Noun: lemon tree
 //  action 1: the lemon tree grows
-lemontree.grow();
+lemonTree.grow();
 //  action 2: the lemon tree produces lemons
-lemontree.produceLemons();
+lemonTree.produceLemons();
 //  action 3: the lemon tree drops ripe lemons
-lemontree.dropRipeLemons();
+lemonTree.dropRipeLemons();
 //  10)
 //  Noun: mailman
 //  action 1: the mailman delivers mail
@@ -151,7 +151,8 @@ mailman.getAnnoyed();
  */
 
 #include <iostream>
-int main() {
+int main()
+{
   std::cout << "good to go" << std::endl;
   return 0;
 }
